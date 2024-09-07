@@ -27,6 +27,12 @@ https://com.ru-trade24.ru/bidding/GetTradeAnounsmentDoc/381
 иметь представление о команде EXPLAIN
 можно использовать сторонние классы, структура таблиц произвольная.
 
+## Технологии
+- Фреймворк Laravel
+- Docker для разворачивания бд и приложения
+- БД MySQL
+- Для парсинга используется библиотекка DiDOM
+
 ## Установка
 
 Cперва клонируйте репозиторий: git clone https://github.com/gxldmane/tender_system.git
@@ -36,3 +42,4 @@ Cперва клонируйте репозиторий: git clone https://githu
 3. Сгерерируйте ключ приложения `php artisan key:generate`
 4. Запустите докер контейнер `sail up -d`
 5. Создайте новую базу данных `sail artisan migrate:fresh`
+6. Перейдите по адресу `http://localhost/api/tenders` и ждите результатов
