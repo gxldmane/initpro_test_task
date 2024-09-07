@@ -43,3 +43,6 @@ Cперва клонируйте репозиторий: git clone https://githu
 4. Запустите докер контейнер `sail up -d`
 5. Создайте новую базу данных `sail artisan migrate:fresh`
 6. Перейдите по адресу `http://localhost/api/tenders` и ждите результатов
+
+БД находится на порту 3306
+Данные для входа: user:sail, password:password
