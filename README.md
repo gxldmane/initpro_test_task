@@ -40,8 +40,8 @@ Cперва клонируйте репозиторий: git clone https://githu
 1. Отредактируйте `.env.example` на `.env`
 2. Установите все зависимости `composer install`
 3. Сгерерируйте ключ приложения `php artisan key:generate`
-4. Запустите докер контейнер `sail up -d`
-5. Создайте новую базу данных `sail artisan migrate:fresh`
+4. Запустите докер контейнер `./vendor/bin/sail up -d’`
+5. Создайте новую базу данных `./vendor/bin/sail artisan migrate:fresh`
 6. Перейдите по адресу `http://localhost/api/tenders` и ждите результатов
 
 БД находится на порту 3306
